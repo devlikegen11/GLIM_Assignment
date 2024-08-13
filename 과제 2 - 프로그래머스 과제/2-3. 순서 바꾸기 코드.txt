@@ -1,0 +1,16 @@
+#include <iostream>
+#include <string>
+#include <vector>
+
+using namespace std;
+
+vector<int> solution(vector<int> num_list, int n) 
+{
+    vector<int> answer;
+    vector<int> Begin(num_list.begin(), num_list.begin()+n);
+    vector<int> After(num_list.begin()+n, num_list.end());
+
+    answer.insert(answer.end(), After.begin(), After.end());
+    answer.insert(answer.end(), Begin.begin(), Begin.end());
+    return answer;
+}

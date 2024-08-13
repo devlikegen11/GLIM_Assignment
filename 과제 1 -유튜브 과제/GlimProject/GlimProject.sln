@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GlimProject", "GlimProject\GlimProject.vcxproj", "{68420A3C-4477-47DB-8470-3D553473384E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68420A3C-4477-47DB-8470-3D553473384E}.Debug|x64.ActiveCfg = Debug|x64
+		{68420A3C-4477-47DB-8470-3D553473384E}.Debug|x64.Build.0 = Debug|x64
+		{68420A3C-4477-47DB-8470-3D553473384E}.Debug|x86.ActiveCfg = Debug|Win32
+		{68420A3C-4477-47DB-8470-3D553473384E}.Debug|x86.Build.0 = Debug|Win32
+		{68420A3C-4477-47DB-8470-3D553473384E}.Release|x64.ActiveCfg = Release|x64
+		{68420A3C-4477-47DB-8470-3D553473384E}.Release|x64.Build.0 = Release|x64
+		{68420A3C-4477-47DB-8470-3D553473384E}.Release|x86.ActiveCfg = Release|Win32
+		{68420A3C-4477-47DB-8470-3D553473384E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1048FCD6-C150-483B-9962-FE9C8F8D558D}
+	EndGlobalSection
+EndGlobal
