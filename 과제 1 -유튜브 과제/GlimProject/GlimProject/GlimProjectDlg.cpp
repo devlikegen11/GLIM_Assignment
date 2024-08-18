@@ -164,7 +164,7 @@ void CGlimProjectDlg::Initimage()
 
 void CGlimProjectDlg::Draw()
 {
-	nRadius = rand() % 50;
+	nRadius = (rand() % 20) + 30;
 	LimitDraw(nRadius);
 
 	static int nPrevRadius = 0;
