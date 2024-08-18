@@ -352,7 +352,7 @@ void CGlimProjectDlg::CreateFolder()
 void CGlimProjectDlg::OnBnClickedDiaDraw()
 {
     UpdateData(true);
-    nDiaRadius = rand() % 50;
+    nDiaRadius = (rand() % 21) + 50;;
     LimitDraw(nDiaRadius);
 
     SetImage();  
