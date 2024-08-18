@@ -17,6 +17,12 @@
 #define IDC_ENDX                        1005
 #define IDC_CIRCLE                      1005
 #define IDC_ENDY                        1006
+#define IDC_STATIC_CIR                  1007
+#define IDC_STATIC_TRI                  1008
+#define IDC_DIA_DRAW                    1009
+#define IDC_TRI_Action                  1010
+#define IDC_DIA_Action                  1010
+#define IDC_STATIC_CIR2                 1011
 
 // Next default values for new objects
 // 
@@ -24,7 +30,7 @@
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_NEXT_RESOURCE_VALUE        131
 #define _APS_NEXT_COMMAND_VALUE         32771
-#define _APS_NEXT_CONTROL_VALUE         1006
+#define _APS_NEXT_CONTROL_VALUE         1011
 #define _APS_NEXT_SYMED_VALUE           104
 #endif
 #endif

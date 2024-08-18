@@ -35,6 +35,10 @@ public:
 	int m_SttY;
 	int m_EndX;
 	int m_EndY;
+	int nWidth;
+	int nHeight;
+	int nDiaRadius;
+	int nGray;
 	void drawCircle(unsigned char* fm, int x, int y, int nRadius, int nGray);
 	bool isInCIrcle(int i, int j, int nCenterX, int nCenterY, int nRadius);
 	afx_msg void OnBnClickedDraw();
@@ -42,9 +46,16 @@ public:
 	afx_msg void OnBnClickedOpen(); 
 	int nRadius;
 	void Action();
-	void EClimit();
 	void OnDestroy();
 	void ActionDraw();
 	void CreateFolder();
+	afx_msg void OnBnClickedDiaDraw();
+	afx_msg void OnBnClickedDiaAction();
+	void SetImage();
+	void Increments(int& steps, float& xIncrement, float& yIncrement);
+	void RunCircle(int steps, float xIncrement, float yIncrement);
+	void drawDiamond(unsigned char* fm, int centerX, int centerY, int size, int nGray);
+	void ActionDiamond(int steps, float xIncrement, float yIncrement);
+	void LimitDraw(int radius);
 };
 
